@@ -15,14 +15,14 @@ int main()
     for (rows = 0; rows < 10; rows++)
     {
 
-        for (plus = 0; plus < rows; plus++)
+        for (plus = 0; plus < rows; plus++) // Pattern 1
         {
             cout << left << "+";
         }
 
         cout << setw(11);
 
-        for (plus = 11; plus > rows; plus--)
+        for (plus = 11; plus > rows; plus--) // Pattern 2
         {
             cout << left << "+";
         }
